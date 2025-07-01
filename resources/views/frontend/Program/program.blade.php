@@ -1,0 +1,36 @@
+@extends('frontend.layouts.main')
+@section('main-content')
+
+<!-- Gallery Banner Section -->
+<section class="history-banner mb-4">
+    <div class="container-custom position-relative">
+        <img src="{{ asset('assets/img/Gurukul/half.jpg') }}" alt="इतिहास Section" class="img-fluid rounded w-100">
+        <div class="overlay-text">कार्यक्रमहरू</div>
+    </div>
+</section>
+<section class="history-section py-5">
+    <div class="container">
+        <div class="text">पूजा–आराधना</div>
+        <div class="row">
+            <div class="col-md-5">
+                <div class="image-box mb-4">
+                    <img src="{{ asset('assets/img/Gurukul/guru1.png') }}" alt="गुरुकुल भवन" class="img-fluid rounded shadow-sm">
+                </div>
+            </div>
+            <div class="col-md-7">
+                <p class="history-text">
+                    परमानन्द वैदिक गुरुकुल एक धार्मिक तथा शैक्षिक संस्था हो जसको उद्देश्य वैदिक शिक्षा, संस्कृति, र सनातन धर्मको संरक्षण तथा प्रवर्द्धन गर्नु हो । यहाँ विद्यार्थीहरूलाई वेद, संस्कृत, योग, ध्यान, र नैतिक शिक्षाको माध्यमबाट आध्यात्मिक र शारीरिक विकास गराइन्छ । गुरुकुल परम्परालाई आधुनिक शिक्षासँग समायोजन गर्दै संस्कारयुक्त जीवनको आधार प्रदान गर्ने यस संस्थाको मूल उद्देश्य हो ।
+                    परमानन्द वैदिक गुरुकुल एक धार्मिक तथा शैक्षिक संस्था हो जसको उद्देश्य वैदिक शिक्षा, संस्कृति, र सनातन धर्मको संरक्षण तथा प्रवर्द्धन गर्नु हो । यहाँ विद्यार्थीहरूलाई वेद, संस्कृत, योग, ध्यान, र नैतिक शिक्षाको माध्यमबाट आध्यात्मिक र शारीरिक विकास गराइन्छ । गुरुकुल परम्परालाई आधुनिक शिक्षासँग समायोजन गर्दै संस्कारयुक्त जीवनको आधार प्रदान गर्ने यस संस्थाको मूल उद्देश्य हो ।
+                </p>
+            </div>
+            
+        </div>
+    </div>
+</section>
+<style>
+    .text{
+        color:black;
+        font-size:20px;
+    }
+</style>
+@endsection

@@ -1,0 +1,892 @@
+/* Fix 1: Ensure html/body fill viewport */
+html, body {
+  width: 100%;
+  min-height: 100vh;
+  margin: 0;
+  padding: 0;
+  background-color: #F5F7FA;
+}
+/* 20. preloader */
+/* line 577, C:/Users/HP/Desktop/July-HTML/292 Health coach/assets/scss/_common.scss */
+.preloader {
+  background-color: #f7f7f7;
+  width: 100vw; /* Use viewport units */
+  height: 100vh;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 999999;
+  -webkit-transition: .6s;
+  -o-transition: .6s;
+  transition: .6s;
+  margin: 0 auto;
+}
+
+/* line 593, C:/Users/HP/Desktop/July-HTML/292 Health coach/assets/scss/_common.scss */
+.preloader .preloader-circle {
+  width: 100px;
+  height: 100px;
+  position: relative;
+  border-style: solid;
+  border-width: 1px;
+  border-top-color: #FF0000;
+  border-bottom-color: transparent;
+  border-left-color: transparent;
+  border-right-color: transparent;
+  z-index: 10;
+  border-radius: 50%;
+  -webkit-box-shadow: 0 1px 5px 0 rgba(35, 181, 185, 0.15);
+  box-shadow: 0 1px 5px 0 rgba(35, 181, 185, 0.15);
+  background-color: #fff;
+  -webkit-animation: zoom 2000ms infinite ease;
+  animation: zoom 2000ms infinite ease;
+  -webkit-transition: .6s;
+  -o-transition: .6s;
+  transition: .6s;
+}
+
+/* line 615, C:/Users/HP/Desktop/July-HTML/292 Health coach/assets/scss/_common.scss */
+.preloader .preloader-circle2 {
+  border-top-color: #BD3535;
+}
+
+/* line 618, C:/Users/HP/Desktop/July-HTML/292 Health coach/assets/scss/_common.scss */
+.preloader .preloader-img {
+  position: absolute;
+  top: 50%;
+  z-index: 200;
+  left: 0;
+  right: 0;
+  margin: 0 auto;
+  text-align: center;
+  display: inline-block;
+  -webkit-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+  padding-top: 6px;
+  -webkit-transition: .6s;
+  -o-transition: .6s;
+  transition: .6s;
+}
+
+/* line 636, C:/Users/HP/Desktop/July-HTML/292 Health coach/assets/scss/_common.scss */
+.preloader .preloader-img img {
+  max-width:100px;
+}
+
+/* line 639, C:/Users/HP/Desktop/July-HTML/292 Health coach/assets/scss/_common.scss */
+.preloader .pere-text strong {
+  font-weight: 800;
+  color: #dca73a;
+  text-transform: uppercase;
+}
+
+@-webkit-keyframes zoom {
+  0% {
+    -webkit-transform: rotate(0deg);
+    transform: rotate(0deg);
+    -webkit-transition: .6s;
+    -o-transition: .6s;
+    transition: .6s;
+  }
+  100% {
+    -webkit-transform: rotate(360deg);
+    transform: rotate(360deg);
+    -webkit-transition: .6s;
+    -o-transition: .6s;
+    transition: .6s;
+  }
+}
+
+@keyframes zoom {
+  0% {
+    -webkit-transform: rotate(0deg);
+    transform: rotate(0deg);
+    -webkit-transition: .6s;
+    -o-transition: .6s;
+    transition: .6s;
+  }
+  100% {
+    -webkit-transform: rotate(360deg);
+    transform: rotate(360deg);
+    -webkit-transition: .6s;
+    -o-transition: .6s;
+    transition: .6s;
+  }
+}
+
+/* Fix 4: Ensure body background covers everything */
+body.whitesmoke-bg {
+  background-color: #F5F7FA !important;
+}
+/*-- Section Padding -- */
+/* line 683, C:/Users/HP/Desktop/July-HTML/292 Health coach/assets/scss/_common.scss */
+.section-padding2 {
+  padding-top: 200px;
+  padding-bottom: 200px;
+}
+
+@media only screen and (min-width: 1200px) and (max-width: 1600px) {
+  /* line 683, C:/Users/HP/Desktop/July-HTML/292 Health coach/assets/scss/_common.scss */
+  .section-padding2 {
+    padding-top: 200px;
+    padding-bottom: 200px;
+  }
+}
+
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+  /* line 683, C:/Users/HP/Desktop/July-HTML/292 Health coach/assets/scss/_common.scss */
+  .section-padding2 {
+    padding-top: 200px;
+    padding-bottom: 200px;
+  }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  /* line 683, C:/Users/HP/Desktop/July-HTML/292 Health coach/assets/scss/_common.scss */
+  .section-padding2 {
+    padding-top: 100px;
+    padding-bottom: 100px;
+  }
+}
+
+@media only screen and (min-width: 576px) and (max-width: 767px) {
+  /* line 683, C:/Users/HP/Desktop/July-HTML/292 Health coach/assets/scss/_common.scss */
+  .section-padding2 {
+    padding-top: 70px;
+    padding-bottom: 70px;
+  }
+}
+
+@media (max-width: 575px) {
+  /* line 683, C:/Users/HP/Desktop/July-HTML/292 Health coach/assets/scss/_common.scss */
+  .section-padding2 {
+    padding-top: 70px;
+    padding-bottom: 70px;
+  }
+}
+
+/* line 708, C:/Users/HP/Desktop/July-HTML/292 Health coach/assets/scss/_common.scss */
+.pb-bottom {
+  padding-bottom: 200px;
+}
+
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+  /* line 708, C:/Users/HP/Desktop/July-HTML/292 Health coach/assets/scss/_common.scss */
+  .pb-bottom {
+    padding-bottom: 200px;
+  }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  /* line 708, C:/Users/HP/Desktop/July-HTML/292 Health coach/assets/scss/_common.scss */
+  .pb-bottom {
+    padding-bottom: 50px;
+  }
+}
+
+@media only screen and (min-width: 576px) and (max-width: 767px) {
+  /* line 708, C:/Users/HP/Desktop/July-HTML/292 Health coach/assets/scss/_common.scss */
+  .pb-bottom {
+    padding-bottom: 10px;
+  }
+}
+
+@media (max-width: 575px) {
+  /* line 708, C:/Users/HP/Desktop/July-HTML/292 Health coach/assets/scss/_common.scss */
+  .pb-bottom {
+    padding-bottom: 10px;
+  }
+}
+
+/* line 723, C:/Users/HP/Desktop/July-HTML/292 Health coach/assets/scss/_common.scss */
+.pb-top {
+  padding-top: 200px;
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  /* line 723, C:/Users/HP/Desktop/July-HTML/292 Health coach/assets/scss/_common.scss */
+  .pb-top {
+    padding-top: 70px;
+  }
+}
+
+@media only screen and (min-width: 576px) and (max-width: 767px) {
+  /* line 723, C:/Users/HP/Desktop/July-HTML/292 Health coach/assets/scss/_common.scss */
+  .pb-top {
+    padding-top: 70px;
+  }
+}
+
+@media (max-width: 575px) {
+  /* line 723, C:/Users/HP/Desktop/July-HTML/292 Health coach/assets/scss/_common.scss */
+  .pb-top {
+    padding-top: 70px;
+  }
+}
+
+
+/* header */
+/* General Styling */
+ 
+.top-bar{
+  
+  background-color: #BD3535;
+  display:flex;
+  justify-content:space-between;
+  padding:0.25rem 1rem;
+  
+  font-size:1rem;
+}
+.top-link {
+    color: white;
+    text-decoration:none;
+    padding:0.25rem 0.5rem;
+    display:inline-block;
+
+}
+.top-link:hover {
+  color: black;
+    text-decoration: underline;
+}
+container-fluid{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.logo img {
+    height: 100px; /* or 60px max */
+    margin-bottom: 0;
+    display: block;
+    object-fit: contain;
+}
+
+/* Navigation */
+.main-nav {
+    background-color: #BD3535;
+    height:50px;
+}
+/* Main header */
+.main-header {
+    padding-top: 0.25rem !important;  /* reduce py-0.5 */
+    padding-bottom: 0.25rem !important;
+}
+/* Scrollable desktop nav */
+.nav-scroll-wrapper {
+  overflow-x: auto;
+  white-space: nowrap;
+}
+
+.nav-inner {
+  min-width: max-content;
+}
+
+
+.nav-link-item {
+   display: inline-block;
+   padding:12px;
+    color: #fff;
+    text-decoration: none;
+
+    margin-right: 50px;
+    white-space: nowrap;
+    font-size:18px;
+}
+.nav-link-item:hover {
+    text-decoration: underline;
+    color:black;
+}
+
+/* Optional: hide scroll bar on WebKit */
+.nav-scroll-wrapper::-webkit-scrollbar {
+  height: 6px;
+}
+
+.nav-scroll-wrapper::-webkit-scrollbar-thumb {
+  background-color: rgba(255, 255, 255, 0.5);
+  border-radius: 4px;
+}
+
+.nav-scroll-wrapper::-webkit-scrollbar-track {
+  background: transparent;
+}
+/* Overlay Menu (Mobile) */
+.overlay-menu {
+    display: none;
+    position: fixed;
+    z-index: 9999;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color:#BD3535;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.overlay-menu a {
+    color: #fff;
+    font-size: 1.3rem;
+    margin: 15px 0;
+    text-decoration: none;
+}
+.overlay-menu .close-btn {
+    position: absolute;
+    top: 20px;
+    right: 30px;
+    font-size: 2.5rem;
+    color: #fff;
+    background: none;
+    border: none;
+    cursor: pointer;
+}
+
+
+
+
+
+/* Only applies below 992px */
+@media (max-width: 991.98px) {
+    .hamburger,
+    .search-toggle-btn {
+        background: none;
+        border: none;
+        font-size: 1.4rem;
+        color: #000;
+        padding: 0;
+        width: 36px;
+        height: 36px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .logo img {
+        max-height: 36px;
+    }
+}
+
+
+/* Back to Top */
+#back-top {
+    position: fixed;
+    right: 15px;
+    bottom: 25px;
+    z-index: 99;
+}
+
+#back-top a {
+    display: inline-block;
+    background: #BD3535;
+    color: #fff;
+    padding: 10px 12px;
+    border-radius: 50%;
+    font-size: 18px;
+    transition: 0.3s;
+}
+
+#back-top a:hover {
+    background: #BD3535;
+}
+
+
+/* Desktop icons */
+.header-icons a.icon-btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 36px;
+  height: 36px;
+  border-radius: 50%;
+  background-color: #f2f2f2;
+  color: #333;
+  font-size: 1.2rem;
+  transition: all 0.3s ease;
+  text-decoration: none;
+}
+
+.header-icons a.icon-btn:hover {
+  background-color: #BD3535;
+  color: #fff;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
+
+
+   /* Slider Styles */
+    .slider-section {
+        padding: 5px 0;
+        background-color: #f8f9fa;
+    }
+    
+    .slider-container {
+        position: relative;
+        max-width: 100%;
+        margin: 0 auto;
+        overflow: hidden;
+
+        box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+    }
+    
+    .slider-track {
+        display: flex;
+        transition: transform 0.5s ease-in-out;
+        height: 400px;
+    }
+    
+    .slide {
+        min-width: 100%;
+        position: relative;
+    }
+    
+    .slide img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        display: block;
+    }
+    
+    .slide-content {
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        background: linear-gradient(to top, rgba(0,0,0,0.7), transparent);
+        color: white;
+        padding: 30px;
+        text-align: center;
+    }
+    
+    .slide-content h2 {
+        font-size: 2rem;
+        margin-bottom: 10px;
+        color: #fff;
+    }
+    
+    .slide-content p {
+        font-size: 1.1rem;
+        margin-bottom: 20px;
+        color: #eee;
+    }
+    
+    .slide-btn {
+        display: inline-block;
+        background-color: #dca73a;
+        color: #0A0F2C;
+        padding: 10px 25px;
+        border-radius: 4px;
+        text-decoration: none;
+        font-weight: 600;
+        transition: all 0.3s ease;
+    }
+    
+    .slide-btn:hover {
+        background-color: #0A0F2C;
+        color: white;
+        transform: translateY(-2px);
+    }
+    
+    /* Navigation Arrows */
+    .slider-nav {
+        position: absolute;
+        top: 50%;
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        transform: translateY(-50%);
+        z-index: 10;
+    }
+    
+    .slider-nav button {
+        background-color: black;
+        border: none;
+        color: white;
+        width: 40px;
+        height: 40px;
+        border-radius: 50%;
+        font-size: 1.2rem;
+        cursor: pointer;
+        margin: 0 15px;
+        transition: all 0.3s ease;
+        backdrop-filter: blur(5px);
+    }
+    
+    .slider-nav button:hover {
+        background-color: #BD3535;
+    }
+    
+    
+    /* Responsive Design */
+    @media (max-width: 768px) {
+        .slider-track {
+            height: 300px;
+        }
+        
+        .slide-content {
+            padding: 20px;
+        }
+        
+        .slide-content h2 {
+            font-size: 1.5rem;
+        }
+        
+        .slide-content p {
+            font-size: 1rem;
+        }
+    }
+    
+    @media (max-width: 480px) {
+        .slider-track {
+            height: 250px;
+        }
+        
+        .slide-content {
+            padding: 15px;
+        }
+        
+        .slide-content h2 {
+            font-size: 1.3rem;
+        }
+        
+        .slider-nav button {
+            width: 30px;
+            height: 30px;
+            font-size: 1rem;
+            margin: 0 10px;
+        }
+    }
+.image-card {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    border-radius: 10px;
+    overflow: hidden;
+    background-color: #fff;
+    text-align: center;
+}
+
+.hover-up:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.15);
+}
+
+.image-caption {
+    font-size: 14px;
+    margin-top: 10px;
+    color: #333;
+    font-weight: 500;
+}
+
+
+
+/* General styling for the red section */
+.about-gurukul-section {
+    background-color: #de9999;
+    padding: 3rem 1rem;
+    color: white;
+}
+
+.about-gurukul-section .emblem-img {
+    width: 90px;
+    height: auto;
+}
+
+.about-gurukul-section h2 {
+    font-size: 2rem;
+    color: black;
+    font-weight: bold;
+}
+
+.about-gurukul-section p {
+    font-size: 1.1rem;
+    line-height: 1.8;
+    margin-bottom: 0;
+    color: #fff;
+}
+
+.about-gurukul-section .video-wrapper {
+    margin-bottom: 1rem;
+}
+
+.about-gurukul-section iframe {
+    border: none;
+    width: 100%;
+    height: 200px;
+    border-radius: 10px;
+}
+
+.about-gurukul-section .yogi-img {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-top: 1rem;
+}
+
+.about-gurukul-section a {
+    color: #000;
+    text-decoration: none;
+    font-size: 0.9rem;
+    font-weight: 500;
+}
+
+/* Hover effect for link */
+.about-gurukul-section a:hover {
+    color: #333;
+    text-decoration: underline;
+}
+
+/* Responsive tweaks */
+@media (max-width: 768px) {
+    .about-gurukul-section {
+        text-align: center;
+    }
+
+    .about-gurukul-section .d-flex {
+        flex-direction: column !important;
+        align-items: center !important;
+        text-align: center;
+    }
+
+    .about-gurukul-section .emblem-img {
+        margin-bottom: 1rem;
+    }
+
+    .about-gurukul-section iframe {
+        height: 180px;
+    }
+}
+
+@media (max-width: 480px) {
+    .about-gurukul-section h2 {
+        font-size: 1.6rem;
+    }
+
+    .about-gurukul-section p {
+        font-size: 1rem;
+    }
+
+    .about-gurukul-section iframe {
+        height: 160px;
+    }
+}
+
+.footer-area {
+    background-color: #b73535; /* Slightly deeper red for elegant contrast */
+    color: white;
+    font-family: 'Arial', sans-serif;
+    font-size: 14px;
+}
+
+.footer-area h5, .footer-area h6 {
+    color: white;
+}
+
+.footer-area .footer-link {
+    color: #f1f1f1;
+    text-decoration: none;
+}
+
+.footer-area .footer-link:hover {
+    color: #fff;
+    text-decoration: underline;
+}
+
+.footer-area ul {
+    padding-left: 1em;
+}
+
+.footer-area i {
+    color: white;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+    .footer-area {
+        text-align: center;
+    }
+
+    .footer-area .text-md-start,
+    .footer-area .text-md-end {
+        text-align: center !important;
+    }
+
+    .footer-area ul {
+        padding-left: 0;
+        list-style-position: inside;
+    }
+}
+
+/* Section background wrapper */
+.group-photo-section {
+    background-color: #d88c8c; /* same pinkish-red background as image */
+    padding: 2rem 0;
+    text-align: center;
+}
+
+/* Container that centers the image */
+.container-custom {
+    max-width: 95%;
+    margin: 0 auto;
+}
+
+/* Responsive Image */
+.group-photo-section img {
+    width: 100%;
+    max-height: 500px;
+    max-width: 100%;
+    border-radius: 8px;
+}
+
+/* On very small devices, reduce side margins slightly */
+@media (max-width: 576px) {
+    .group-photo-section {
+        padding: 1.5rem 0;
+    }
+
+    .container-custom {
+        max-width: 98%;
+    }
+}
+
+
+/* Base resets */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container-custom {
+    position: relative;
+    width: 100%;
+}
+
+/* इतिहास banner image */
+.history-banner img {
+    width: 100%;
+    height: auto;
+    border-radius: 0;
+    object-fit: cover;
+}
+
+/* Overlay Title */
+.overlay-text {
+    position: absolute;
+    top: 20px;
+    left: 40px;
+    font-size: 48px;
+    font-weight: bold;
+    color: black;
+    font-family: 'Mangal', sans-serif;
+    padding: 10px 20px;
+    border-radius: 6px;
+}
+
+/* Main content section */
+.history-section {
+    background-color: #c48480; /* Matching background */
+    color: #fff;
+}
+
+
+.history-text {
+    font-size: 18px;
+    line-height: 1.8;
+    font-family: 'Mangal', sans-serif;
+    color: black;
+}
+
+/* Image Styling */
+.image-box img {
+    width: 400px;
+    height: 400px;
+    border-radius: 8px;
+
+    box-shadow: 0 4px 10px rgba(0,0,0,0.15);
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+    .overlay-text {
+        font-size: 32px;
+        top: 10px;
+        left: 20px;
+        padding: 8px 15px;
+    }
+
+    .history-text {
+        font-size: 16px;
+    }
+
+    .history-section .row {
+        flex-direction: column-reverse;
+    }
+}
+
+
+/* Overlay Banner Text */
+.history-banner {
+    position: relative;
+    overflow: hidden;
+}
+
+.overlay-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 2.5rem;
+    color: white;
+    font-weight: bold;
+    text-shadow: 2px 2px 4px rgba(0,0,0,0.7);
+    text-align: center;
+}
+
+/* Red/White Filter Button Styles */
+.filter-btn {
+    padding: 8px 20px;
+    border: 2px solid #b12a27;
+    background-color: white;
+    color: black;
+    font-weight: bold;
+    border-radius: 4px;
+    transition: all 0.2s ease-in-out;
+}
+
+.filter-btn.active {
+    background-color: #b12a27;
+    color: white;
+}
+
+.filter-btn:hover {
+    cursor: pointer;
+    opacity: 0.9;
+}
+
+.gallery-grid img.gallery-img {
+    object-fit: cover;
+    height: 280px; /* Adjust height as needed */
+    width: 100%;
+    transition: transform 0.3s ease;
+}
+
+.gallery-grid img.gallery-img:hover {
+    transform: scale(1.03);
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+}
+.gallery-item {
+    margin-bottom: 30px; /* Adjust vertical spacing as needed */
+}
+
+
+@media (max-width: 768px) {
+    .gallery-grid img.gallery-img {
+        height: 200px;
+    }
+}
+
+@media (max-width: 576px) {
+    .gallery-grid img.gallery-img {
+        height: 180px;
+    }
+}
