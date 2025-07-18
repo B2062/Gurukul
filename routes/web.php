@@ -23,6 +23,7 @@ Route::get('/program', [ProgramControler::class, 'program'])->name('program');
 Route::get('/members', [MembersController::class, 'index'])->name('members');
 Route::get('/Donation', [DonationController::class, 'index'])->name('Donation');
 Route::get('/Blog', [BlogController::class, 'index'])->name('blog');
+Route::get('/blog', [BlogController::class, 'Blog'])->name('Blog');
 
 
 

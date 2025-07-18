@@ -5,9 +5,10 @@
 <section class="history-banner mb-4">
     <div class="container-custom position-relative">
         <img src="{{ asset('assets/img/Gurukul/half.jpg') }}" alt="इतिहास Section" class="img-fluid rounded w-100">
-        <div class="overlay-text">कार्यक्रमहरू</div>
+        <div class="overlay-text"> समाचार / ब्लग</div>
     </div>
 </section>
+
 <section class="program-hero py-5">
     <div class="container">
         <div class="row align-items-center g-4">
@@ -23,7 +24,7 @@
             <div class="col-lg-4">
                 <div class="program-info-card p-4">
                     <h5 class="program-info-title mb-4">
-                        कार्यक्रम जानकारी
+                        समाचार / ब्लग
                     </h5>
 
                     <div class="info-row">
@@ -31,13 +32,10 @@
                         <span class="info-value">०७–मार्च–२०१८</span>
                     </div>
                     <div class="info-row">
-                        <span class="info-label">समय:</span>
-                        <span class="info-value">०५:५६ – ०१:४६</span>
+                        <span class="info-label">लेखक:</span>
+                        <span class="info-value">Bharat Bista</span>
                     </div>
-                    <div class="info-row">
-                        <span class="info-label">स्थान:</span>
-                        <span class="info-value">Sint distinctio Ist</span>
-                    </div>
+                    
                 </div>
             </div>
         </div>
@@ -47,7 +45,7 @@
 {{-- Overview copy --}}
 <section class="program-overview pb-5">
     <div class="container">
-        <h2 class="program-overview-heading mb-3">कार्यक्रम Overview</h2>
+        <h2 class="program-overview-heading mb-3">समाचार / ब्लग</h2>
 
         {{-- Main description (your previous text moved here) --}}
         <p class="program-overview-body">

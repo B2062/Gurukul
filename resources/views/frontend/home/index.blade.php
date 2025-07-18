@@ -73,7 +73,7 @@
                     <img src="{{ asset('assets/img/logo/logo.png') }}" alt="Nepal Emblem" style="width: 90px; height: auto;" class="mb-3 mb-md-0">
                     <div>
                         <h1 class="fw-bold mb-3" style="color: black;">परमानन्द वैदिक गुरुकुल</h1>
-                        <p class="mb-0" style="line-height: 1.5; font-size:15px;">
+                        <p class="mb-0" style="line-height: 1.5; font-size:20px;">
                             परमानन्द वैदिक गुरुकुल एक धार्मिक तथा शैक्षिक संस्था हो जसको उद्देश्य वैदिक शिक्षा,
                             संस्कार, र सनातन धर्मको संरक्षण तथा प्रवर्द्धन गर्नु हो। यहाँ विद्यार्थीहरूलाई वेद,
                             संस्कृत, योग, ध्यान, र नैतिक शिक्षाको माध्यमबाट आध्यात्मिक र चारित्रिक विकास गराइन्छ।
@@ -90,9 +90,7 @@
 
             <!-- Right: Video Embed + Image -->
             <div class="col-md-4 text-center">
-                <div class="ratio ratio-16x9 mb-3">
-                    <iframe src="https://www.youtube.com/embed/Uo1r6RtI8t4" title="Promo For Gurukul" allowfullscreen></iframe>
-                </div>
+                
                 <small class="d-block text-end"><a href="#" class=>View More.....</a></small>
                 <img src="{{ asset('assets/img/Gurukul/paramguru.jpg') }}" alt="Yogi Image" class="img-fluid rounded-circle mt-3" style="width: 120px;">
             </div>
