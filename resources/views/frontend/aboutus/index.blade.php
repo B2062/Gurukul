@@ -7,7 +7,7 @@
     </div>
 </section>
 <!-- Gurukul Info Section -->
-<section class="gurukul-section py-5" style="background-color: #d88f92;">
+<section class="gurukul-section py-5" style="bbackground: linear-gradient(135deg, #070766, #E6CC00, #7c040e);">
     <div class="container text-white">
         <div class="row align-items-start">
             <!-- Nepal Logo -->

@@ -64,7 +64,7 @@
 
 <style>
 .program-hero {
-    background-color: #c48480;
+    background-color: #D1811B;
 }
 .program-hero-img-wrapper {
     overflow: hidden;

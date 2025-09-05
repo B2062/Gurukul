@@ -2,8 +2,8 @@
 @section('main-content')
 
 <!-- इतिहास Section -->
-<section class="history-banner">
-    <div class="container-custom">
+<section class="history-banner mb-4">
+    <div class="container-fluid px-0 position-relative">
         <img src="{{ asset('assets/img/Gurukul/half.jpg') }}" alt="इतिहास Section" class="img-fluid rounded">
         <div class="overlay-text">इतिहास</div>
     </div>

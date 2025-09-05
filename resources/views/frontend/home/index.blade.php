@@ -36,39 +36,37 @@
     </div>
 </section>
 <!-- Gurukul Image Section -->
-<section class="py-5 bg-light">
+<section class="py-5 ">
     <div class="container">
-        <div class="row g-4">
-            <!-- Image 1 -->
-            <div class="col-12 col-sm-6 col-md-4">
-                <div class="image-card hover-up">
-                    <img src="{{ asset('assets/img/Gurukul/guru1.png')}}" alt="Guru Teaching" class="img-fluid rounded w-100">
-                    <p class="image-caption">गुरु र शिष्यहरू</p>
-                </div>
+    <div class="row g-4">
+        <div class="col-12 col-sm-6 col-md-4">
+            <div class="image-card hover-up">
+                <img src="{{ asset('assets/img/Gurukul/guru1.png')}}" alt="Guru Teaching" class="img-fluid">
+                <h3 class="image-caption">गुरु र शिष्यहरू</h3>
             </div>
-            <!-- Image 2 -->
-            <div class="col-12 col-sm-6 col-md-4">
-                <div class="image-card hover-up">
-                    <img src="{{ asset('assets/img/Gurukul/guru2.webp') }}" alt="Meditating Students" class="img-fluid rounded w-100">
-                    <p class="image-caption">योग ध्यान अभ्यास</p>
-                </div>
+        </div>
+        <div class="col-12 col-sm-6 col-md-4">
+            <div class="image-card hover-up">
+                <img src="{{ asset('assets/img/Gurukul/guru2.webp') }}" alt="Meditating Students" class="img-fluid">
+                <h3 class="image-caption">योग ध्यान अभ्यास</h3>
             </div>
-            <!-- Image 3 -->
-            <div class="col-12 col-sm-6 col-md-4">
-                <div class="image-card hover-up">
-                    <img src="{{ asset('assets/img/Gurukul/guru1.png') }}" alt="Ancient Gurukul" class="img-fluid rounded w-100">
-                    <p class="image-caption">प्राचीन वैदिक गुरुकुल</p>
-                </div>
+        </div>
+        <div class="col-12 col-sm-6 col-md-4">
+            <div class="image-card hover-up">
+                <img src="{{ asset('assets/img/Gurukul/guru1.png') }}" alt="Ancient Gurukul" class="img-fluid">
+                <h3 class="image-caption">प्राचीन वैदिक गुरुकुल</h3>
             </div>
         </div>
     </div>
+</div>
+
 </section>
 <!-- About Gurukul Section -->
 <section class="py-5" >
     <div class="container">
         <div class="row align-items-center gy-4">
             <!-- Left: Emblem + Text -->
-            <div class="col-md-8 text-white"style="background-color: #de9999;">
+            <div class="col-md-8 text-white"style="background-color: #D1811B;">
                 <div class="d-flex flex-column flex-md-row align-items-start align-items-md-center gap-3">
                     <img src="{{ asset('assets/img/logo/logo.png') }}" alt="Nepal Emblem" style="width: 90px; height: auto;" class="mb-3 mb-md-0">
                     <div>
@@ -90,10 +88,15 @@
 
             <!-- Right: Video Embed + Image -->
             <div class="col-md-4 text-center">
-                
-                <small class="d-block text-end"><a href="#" class=>View More.....</a></small>
-                <img src="{{ asset('assets/img/Gurukul/paramguru.jpg') }}" alt="Yogi Image" class="img-fluid rounded-circle mt-3" style="width: 120px;">
-            </div>
+    <!-- View More above the photo -->
+    <h5 class="d-block mb-2">
+        <a href="" class="text-decoration-none">View More.....</a>
+    </h5>
+
+    <!-- Image -->
+    <img src="{{ asset('assets/img/Gurukul/paramguru.jpg') }}" alt="Yogi Image" class="img-fluid rounded-circle" style="width: 200px;">
+</div>
+
         </div>
     </div>
 </section>

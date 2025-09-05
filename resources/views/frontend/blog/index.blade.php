@@ -3,36 +3,44 @@
 
 <!-- Gallery Banner Section -->
 <section class="history-banner mb-4">
-    <div class="container-custom position-relative">
+    <div class="container-fluid px-0 position-relative">
         <img src="{{ asset('assets/img/Gurukul/half.jpg') }}" alt="इतिहास Section" class="img-fluid rounded w-100">
         <div class="overlay-text"> समाचार / ब्लग</div>
     </div>
 </section>
 
 
-<!-- Gallery Images Section -->
-<section class="gallery-grid container">
-    <div class="row g-3">
-        <div class="col-lg-4 col-md-6 col-12 gallery-item">
+
+<section class="py-5 ">
+    <div class="container">
+    <div class="row g-4">
+        <div class="col-12 col-sm-6 col-md-4">
             <a href="{{route('Blog')}}" class="d-block text-decoration-none">
-                <img src="{{ asset('assets/img/Gurukul/guru1.png') }}" class="gallery-img img-fluid rounded w-100" alt="Image 1">
-                <div class="text">पूजा–आराधना</div>
+            <div class="image-card hover-up">
+                <img src="{{ asset('assets/img/Gurukul/guru1.png')}}" alt="Guru Teaching" class="img-fluid">
+                <h3 class="image-caption">
+समाचार 1</h3>
             </a>
+            </div>
         </div>
-        <div class="col-lg-4 col-md-6 col-12 gallery-item">
-            <a href="https://example.com/adhyatmik" class="d-block text-decoration-none">
-                <img src="{{ asset('assets/img/Gurukul/guru1.png') }}" class="gallery-img img-fluid rounded w-100" alt="Image 1">
-                <div class="text">आध्यात्मिक–प्रवचन</div>
+        <div class="col-12 col-sm-6 col-md-4">
+            <a href="{{route('Blog')}}" class="d-block text-decoration-none">
+            <div class="image-card hover-up">
+                <img src="{{ asset('assets/img/Gurukul/guru1.png')}}" alt="Guru Teaching" class="img-fluid">
+                <h3 class="image-caption">समाचार 2</h3>
             </a>
+            </div>
         </div>
-        <div class="col-lg-4 col-md-6 col-12 gallery-item">
-            <a href="https://example.com/sant-sewa" class="d-block text-decoration-none">
-                <img src="{{ asset('assets/img/Gurukul/guru1.png') }}" class="gallery-img img-fluid rounded w-100" alt="Image 1">
-                <div class="text">सन्त–सेवा</div>
+        <div class="col-12 col-sm-6 col-md-4">
+            <a href="{{route('Blog')}}" class="d-block text-decoration-none">
+            <div class="image-card hover-up">
+                <img src="{{ asset('assets/img/Gurukul/guru1.png')}}" alt="Guru Teaching" class="img-fluid">
+                <h3 class="image-caption">समाचार 3</h3>
             </a>
+            </div>
         </div>
     </div>
-</section>
+</div>
 
 <style>
     .text{
