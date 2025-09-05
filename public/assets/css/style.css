@@ -318,29 +318,40 @@ container-fluid{
 }
 
 
-/* Mobile overlay - hidden by default (width: 0) and revealed by .show */
+/* Overlay as a right-side panel (half-screen) */
 .overlay-menu {
   position: fixed;
   top: 0;
-  left: 0;
-  height: 100%;
-  width: 0;                 /* hidden initially by width */
-  background-color: #222;   /* dark panel */
+  bottom: 0;
+  right: -50%;               /* start off-screen to the right */
+  left: auto;
+  width: 50%;                /* visible panel width when open */
+  max-width: 480px;          /* optional cap */
+  background-color: rgba(34,34,34,0.98);
   color: #fff;
-  overflow-x: hidden;
-  transition: width 0.25s ease;
+  overflow-y: auto;
+  transition: right 0.28s ease, opacity 0.28s ease;
   display: flex;
   flex-direction: column;
   padding: 20px;
   z-index: 9999;
+  opacity: 0;
+  pointer-events: none;
 }
-
-/* When visible, slide to 30% or a fixed px width */
+/* Visible state slides in from the right */
 .overlay-menu.show {
-  width: 30%;               /* or use 250px if you prefer fixed */
-  max-width: 360px;
+  left: 0;                  /* slide into view */
+  opacity: 1;
+  pointer-events: auto;
 }
-
+/* If you want a side panel on larger devices (optional) */
+@media (min-width: 540px) and (max-width: 991.98px) {
+  .overlay-menu.show {
+    width: 360px;    /* side panel on tablets */
+    right: 0;
+    left: auto;
+  }
+}
 /* Close button */
 .overlay-menu .close-btn {
   font-size: 30px;
@@ -437,17 +448,9 @@ container-fluid{
 /* Your link styling – make sure clicks aren’t disabled */
 .nav-link-item { text-decoration: none; padding: .5rem .75rem; display: inline-block; pointer-events: auto; }
 
-/* Mobile overlay */
-.overlay-menu {
-  display: none; flex-direction: column;
-  position: fixed; inset: 0;
-  background: #222; padding: 20px; z-index: 9999; overflow-y: auto;
-}
-.overlay-menu a { color: #fff; text-decoration: none; padding: 10px 0; display: block; }
-.close-btn { font-size: 30px; color: #fff; background: none; border: none; align-self: flex-end; margin-bottom: 20px; }
-
-/* Mobile dropdown (overlay) */
-.mobile-dropdown .dropdown-content { display: none; padding-left: 15px; }
+/* Mobile-dropdown inside overlay */
+.mobile-dropdown .dropdown-toggle { cursor: pointer; padding: 12px 0; display:block; font-weight:600; }
+.mobile-dropdown .dropdown-content { display: none; padding-left: 12px; }
 .mobile-dropdown.active .dropdown-content { display: block; }
 
 /* Responsive: hide desktop nav below 992px */
