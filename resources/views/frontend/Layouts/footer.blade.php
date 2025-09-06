@@ -5,7 +5,7 @@
             <!-- Left: Logo and Name -->
             <div class="col-12 col-md-3 text-center text-md-start">
                 <img src="{{ asset('assets/img/logo/logo.png') }}" alt="Logo" style="width: 80px;">
-                <h5 class="mt-2 mb-1 text-black fw-bold">परमानन्द वैदिक<br>गुरुकुल</h5>
+                <h3 class="mt-2 mb-1 text-golden fw-bold">श्री परमानन्द स्मृति वैदिक विद्याभवन गुरुकुल</h3>
                 <p class="text-light small">गुरुकुल परम्पराको आधुनिक स्वरूप</p>
             </div>
 
