@@ -180,7 +180,14 @@ document.addEventListener('DOMContentLoaded', () => {
 
 </script>
 
+<script>
+  if (window.bootstrap) {
+  document.querySelectorAll('.dropdown-toggle[data-bs-toggle="dropdown"]').forEach(el => {
+    new bootstrap.Dropdown(el);
+  });
+}
 
+</script>
 
 </header>
 

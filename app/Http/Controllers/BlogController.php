@@ -11,8 +11,8 @@ class BlogController extends Controller
         return view('frontend.blog.index'); 
 
     } 
-    public function Blog(){
-        return view('frontend.blog.Blog'); 
+    public function blogs(){
+        return view('frontend.blog.blogs'); 
 
     } 
 

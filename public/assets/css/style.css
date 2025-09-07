@@ -418,6 +418,19 @@ container-fluid{
 .main-nav,
 .nav-inner,
 .nav-item.dropdown { overflow: visible !important; }
+/* Ensure dropdown sits on top */
+.dropdown-menu {
+  z-index: 2000 !important;
+  position: absolute !important;
+  top: 100%;
+  left: 0;
+}
+/* Show dropdown on hover (desktop only) */
+@media (min-width: 992px) {
+  .nav-item.dropdown:hover .dropdown-menu {
+    display: block;
+  }
+}
 /* ✅ Desktop dropdown menu options */
 .dropdown-menu .dropdown-item {
   font-size: 1.5rem;           /* bigger font */

@@ -15,7 +15,7 @@
     <div class="container">
     <div class="row g-4">
         <div class="col-12 col-sm-6 col-md-4">
-            <a href="{{route('Blog')}}" class="d-block text-decoration-none">
+            <a href="{{route('blogs')}}" class="d-block text-decoration-none">
             <div class="image-card hover-up">
                 <img src="{{ asset('assets/img/Gurukul/guru1.png')}}" alt="Guru Teaching" class="img-fluid">
                 <h3 class="image-caption">
@@ -24,7 +24,7 @@
             </div>
         </div>
         <div class="col-12 col-sm-6 col-md-4">
-            <a href="{{route('Blog')}}" class="d-block text-decoration-none">
+            <a href="{{route('blogs')}}" class="d-block text-decoration-none">
             <div class="image-card hover-up">
                 <img src="{{ asset('assets/img/Gurukul/guru1.png')}}" alt="Guru Teaching" class="img-fluid">
                 <h3 class="image-caption">समाचार 2</h3>
@@ -32,7 +32,7 @@
             </div>
         </div>
         <div class="col-12 col-sm-6 col-md-4">
-            <a href="{{route('Blog')}}" class="d-block text-decoration-none">
+            <a href="{{route('blogs')}}" class="d-block text-decoration-none">
             <div class="image-card hover-up">
                 <img src="{{ asset('assets/img/Gurukul/guru1.png')}}" alt="Guru Teaching" class="img-fluid">
                 <h3 class="image-caption">समाचार 3</h3>

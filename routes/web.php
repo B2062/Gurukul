@@ -33,8 +33,8 @@ Route::get('/Donation', [DonationController::class, 'donation1'])->name('donatio
 Route::get('/Donations', [DonationController::class, 'donation2'])->name('donation2');
 Route::get('/donation', [DonationController::class, 'donation3'])->name('donation3');
 
-Route::get('/Blog', [BlogController::class, 'index'])->name('blog');
-Route::get('/blog', [BlogController::class, 'Blog'])->name('Blog');
+Route::get('/blog', [BlogController::class, 'index'])->name('blog');
+Route::get('/blogs', [BlogController::class, 'blogs'])->name('blogs');
 
 
 
